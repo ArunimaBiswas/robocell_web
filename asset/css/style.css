@@ -20,19 +20,7 @@ body{
 .pd100{
 	padding:100px 0;
 }
-.boxbtn {
-	display: inline-block;
-	background-color: white;
-	color: #1A3CA7;
-	text-decoration: none;
-	border-radius: 25px;
-	padding: 11px 45px;
-	font-size: 18px;
-}
-.boxbtn:hover {
-	color: orange;
-	background-color: black;
-}
+
 .underline_box {
 	display: inline-block;
 	text-decoration: none;
@@ -63,8 +51,8 @@ body{
 .header{}
 .logo{
 	float: left;
-	width: 86px;
-	margin: 9px 0 0 9px;
+	width: 110px;
+	margin: 9px 9px 9px 9px;
 }
 .logo a{}
 .logo a img{
@@ -74,10 +62,13 @@ body{
 	float: left;
 	padding: 0 40px;
 	width: 662px;
+	justify-content: space-between;
 }
 .menu ul {
 	list-style: none;
 	padding: 11px 0;
+	display: inline-flex;
+	justify-content: space-between;
 }
 .menu ul li{
 	display: inline-block;
@@ -90,24 +81,9 @@ body{
 	padding: 20px;
 }
 .menu ul li a:hover {
-	color: white;
+	color: rgb(240, 236, 15);
 }
-.log_in {
-	float: right;
-	width: 176px;
-}
-.log_in i {
-	color: white;
-	font-size: 42px;
-	width: 43px;
-	float: left;
-	padding-top: 22px;
-}
-.log_in a {
-	margin: 20px 0;
-	color: black;
-	font-style: italic;
-}
+
 
 
 
